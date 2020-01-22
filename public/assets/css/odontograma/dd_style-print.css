@@ -1,0 +1,53 @@
+@media print {
+	/* General */
+	a[href]:after {
+		content: none !important;
+	}
+
+	table,
+	table tr th,
+	table tr td,
+	.table,
+	.table tr th,
+	.table tr td {
+		font-size: 11px;
+	}
+
+	.table-bordered {
+		border-collapse: collapse;
+	}
+
+	.hidden_print {
+		visibility: hidden;
+	}
+
+	.bg_light_gray {
+		background-color: #f2f2f2 !important;
+		-webkit-print-color-adjust: exact;
+	}
+
+	.bg_gray {
+		background-color: #c8c8c8 !important;
+		-webkit-print-color-adjust: exact;
+	}
+
+	/* Odontograma */
+	#info_odontograma_print {
+		display: inline-block;
+		visibility: visible;
+	}
+
+	#info_odontograma_print .border_bottom {
+		border-width: 1px;
+	}
+
+	/* Receta */
+	.seccion_imprimible {
+		width: 70%;
+	}
+
+	.seccion_imprimible .logo_documento {
+		max-width: 2.5in !important;
+		max-height: 0.9in !important;
+	}
+}

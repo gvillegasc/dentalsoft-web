@@ -1,0 +1,95 @@
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('1', 'Ninguno', 'Ninguno', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('2', 'sano', '#fff', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('3', 'caries', '#E74C3C', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('4', 'sellante', '#33FF3E', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('5', 'amalgama', '#33FAFF', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('6', 'composite', '#2980B9', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('7', 'incrustacion', '#F4D03F', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('8', 'fractura', '#37883B', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('9', 'surco', '#A569BD', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('10', 'endodoncia', '#fff', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('11', 'ausente', '#fff', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('12', 'extraccion', '#fff', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('13', 'coronada', '#fff', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('14', 'implante', '#fff', NULL, NULL);
+INSERT INTO `t_diagnostico` (`diagnostico_id`, `diagnostico_desc`, `diagnostico_color`, `created_at`, `updated_at`) VALUES ('15', 'lcnc', '#fff', NULL, NULL);
+
+
+INSERT INTO `t_pieza` VALUES ('1', '0', 'Ninguno', 'Ninguno2', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('2', '11', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('3', '12', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('4', '13', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('5', '14', '1er. Premolar', '1er. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('6', '15', '2do. Premolar', '2do. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('7', '16', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('8', '17', '2do. Molar', '2do. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('9', '18', '3er. Molar', '3er. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('10', '21', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('11', '22', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('12', '23', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('13', '24', '1er. Premolar', '1er. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('14', '25', '2do. Premolar', '2do. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('15', '26', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('16', '27', '2do. Molar', '2do. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('17', '28', '3er. Molar', '3er. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('18', '31', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('18', '32', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('20', '33', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('21', '34', '1er. Premolar', '1er. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('22', '35', '2do. Premolar', '2do. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('23', '36', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('24', '37', '2do. Molar', '2do. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('25', '38', '3er. Molar', '3er. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('26', '41', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('27', '42', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('28', '43', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('29', '44', '1er. Premolar', '1er. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('30', '45', '2do. Premolar', '2do. Premolar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('31', '46', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('32', '47', '2do. Molar', '2do. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('33', '48', '3er. Molar', '3er. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('34', '51', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('35', '52', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('36', '53', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('37', '54', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('38', '55', '2do. Molar', '2do. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('39', '61', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('40', '62', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('41', '63', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('42', '64', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('43', '65', '2do. Molar', '2do. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('44', '71', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('45', '72', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('46', '73', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('47', '74', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('48', '75', '2do. Molar', '2do. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('49', '81', 'Incisivo Central', 'Incisivo Central', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('50', '82', 'Incisivo Lateral', 'Incisivo Lateral', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('51', '83', 'Canino', 'Canino', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('52', '84', '1er. Molar', '1er. Molar', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('53', '85', '2do. Molar', '2do. Molar', NULL, NULL);
+
+INSERT INTO `t_pieza` VALUES ('54', '100', 'Boca', 'Boca', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('55', '101', 'Mandibula Superior', 'Mandibula Superior', NULL, NULL);
+INSERT INTO `t_pieza` VALUES ('56', '102', 'Mandibula Inferior', 'Mandibula Inferior', NULL, NULL);
+
+
+INSERT INTO `t_mconsulta` (`mconsulta_id`, `mconsulta_desc`, `mconsulta_duracion`, `mconsulta_tiempo`, `created_at`, `updated_at`) VALUES ('1', 'Control Tratamiento', '', '', NULL, NULL);
+INSERT INTO `t_mconsulta` (`mconsulta_id`, `mconsulta_desc`, `mconsulta_duracion`, `mconsulta_tiempo`, `created_at`, `updated_at`) VALUES ('2', 'Primera Consulta', '', '', NULL, NULL);
+INSERT INTO `t_mconsulta` (`mconsulta_id`, `mconsulta_desc`, `mconsulta_duracion`, `mconsulta_tiempo`, `created_at`, `updated_at`) VALUES ('3', 'Limpieza', '', '', NULL, NULL);
+INSERT INTO `t_mconsulta` (`mconsulta_id`, `mconsulta_desc`, `mconsulta_duracion`, `mconsulta_tiempo`, `created_at`, `updated_at`) VALUES ('4', 'Urgencia', '', '', NULL, NULL);
+INSERT INTO `t_mconsulta` (`mconsulta_id`, `mconsulta_desc`, `mconsulta_duracion`, `mconsulta_tiempo`, `created_at`, `updated_at`) VALUES ('5', 'Otros', '', '', NULL, NULL);
+
+INSERT INTO `t_ecita` (`ecita_id`, `ecita_desc`, `created_at`, `updated_at`) VALUES ('1', 'No Confirmado', NULL, NULL);
+INSERT INTO `t_ecita` (`ecita_id`, `ecita_desc`, `created_at`, `updated_at`) VALUES ('2', 'Confirmado', NULL, NULL);
+INSERT INTO `t_ecita` (`ecita_id`, `ecita_desc`, `created_at`, `updated_at`) VALUES ('3', 'Cancelado', NULL, NULL);
+INSERT INTO `t_ecita` (`ecita_id`, `ecita_desc`, `created_at`, `updated_at`) VALUES ('4', 'Atendido', NULL, NULL);
+
+INSERT INTO `t_receta` (`receta_id`, `receta_fecha`, `receta_rp`, `receta_estado`, `paciente_id`, `created_at`, `updated_at`) VALUES ('1', '2019-01-10', '-', '-', '1', NULL, NULL);

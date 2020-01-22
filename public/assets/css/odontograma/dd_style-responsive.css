@@ -1,0 +1,101 @@
+/*----- GENERAL -----*/
+@media screen and (max-width: 1160px) {
+    /*----- Odontograma -----*/
+    #odontograma_diagnosticos {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 94%;
+        float: left;
+        margin: 0 3%;
+        padding: 5px 5px 0px 15px;
+        border-radius: 0px;
+        -webkit-box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        background-color: #FFFFFF
+    }
+
+    #odontograma_diagnosticos .radio {
+        display: inline-table;
+        width: 24%;
+    }
+
+    #odontograma_anamnesis {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 1100px) {
+    /*----- Agenda Online -----*/
+    #div_step_2 .span6 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    /*----- Calendario chico -----*/
+    #small_calendar .ui-widget-content {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /*----- Agenda Online -----*/
+    body#agenda_online {
+        width: 100%;
+        padding: 0 3%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 830px) {
+    /*----- Calendario chico -----*/
+    #small_calendar .ui-state-default {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 640px) {
+    /*----- Agenda Online -----*/
+    .wizard-nav ul li span.wizard-label {
+        visibility: hidden;
+    }
+
+    .wizard-nav ul li.active span.wizard-label {
+        visibility: visible;
+        overflow: visible;
+    }
+
+    #div_step_1 select,
+    #div_step_3 input {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*----- Agenda Online -----*/
+    body#agenda_online header .logo_div,
+    body#agenda_online header .menu_div {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    body#agenda_online header .logo_div {
+        max-height: 70px;
+    }
+
+    #div_step_1 select,
+    #div_step_3 input {
+        max-width: 100%;
+    }
+}
